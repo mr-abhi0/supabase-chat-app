@@ -32,15 +32,7 @@ const Header = ({ user }: { user: User | null }) => {
       >
         <div style={{ color: "white", fontSize: "1.5rem", cursor: "pointer" }}>
           Real Time Chat App
-          <GithubOutlined
-            style={{ cursor: "pointer", padding: "0 .5em" }}
-            onClick={() =>
-              window.open(
-                "https://github.com/SamarthMN/supabase-chat-app",
-                "_blank"
-              )
-            }
-          />
+          
         </div>
         <div style={{ display: "flex" }}>
           {!user ? (
